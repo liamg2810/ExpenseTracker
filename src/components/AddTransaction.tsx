@@ -50,7 +50,7 @@ function AddTransaction({ addTransaction }: Props) {
       <br />
       <button
         type="button"
-        className="btn btn-primary"
+        className="btn btn-primary addTransaction"
         onClick={() => {
           addTransaction(activeType, name, amount);
           setActiveType(0);
